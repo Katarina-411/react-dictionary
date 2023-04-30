@@ -1,10 +1,29 @@
-.App {
-  text-align: center;
+h1 {
+  padding-bottom: 20px;
 }
-
+.container {
+  display: block;
+  margin: 30px auto;
+  width: 400px;
+}
+.App-header {
+  text-align: left;
+}  
+.App-footer {
+  text-align: center;
+  font-size: 12px;
+  margin: 30px auto;
+}
+.App-footer a {
+  color: #076470;
+  text-decoration: none;
+}
+a:hover {
+  font-weight: 600;
+  color: #076470 !important;
+}
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 20px;
 }
 
 
