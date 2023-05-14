@@ -13,11 +13,29 @@ section {
     font-size: 20px;
     margin-bottom: 20px;
 }
+.dictionary p {
+    font-size: 10pt;
+    margin: 15px 0 0;
+}
 .dictionary input {
     display: inline;
     margin-right: 10px;
     border-radius: 6px;
     border: 1px solid #d8d1d1;
+}
+#search-box {
+    padding-left: 10px;
+    width: 60%;
+    font-size: 18px;
+}
+#search-button {
+    padding: 1px 30px;
+    background-color: #d8d1d1;
+    font-size: 18px;
+}
+#search-button:hover {
+    background-color: #076470;
+    color: #fff;
 }
 .phonetics {
     font-size: 18px;
@@ -52,18 +70,7 @@ section {
     font-size: 15px;
     color: #076470;
 }
-#search-box {
-    padding-left: 10px;
-    width: 60%;
-    font-size: 18px;
+.photos img {
+    border-radius: 4px;
+    margin-bottom: 20px;
 }
-#search-button {
-    padding: 1px 30px;
-    background-color: #d8d1d1;
-    font-size: 18px;
-}
-#search-button:hover {
-    background-color: #076470;
-    color: #fff;
-}
-

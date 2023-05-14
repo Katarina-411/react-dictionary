@@ -1,12 +1,14 @@
 h1 {
   text-align: center;
   padding-bottom: 20px;
+  font-family: "Tangerine", cursive;
+  font-size: 72px;
 }
 .container {
   display: flexbox;
   margin: 10px auto;
   padding: 30px 30px 10px;
-  max-width: 700px;
+  max-width: 900px;
   background-color: #d8d1d1;
   border-radius: 10px;
 }
