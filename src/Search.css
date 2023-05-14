@@ -1,3 +1,69 @@
+section {
+    margin: 20px 0;
+    padding: 25px;
+    border: 1px solid #d8d1d1;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.results h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.dictionary h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.dictionary input {
+    display: inline;
+    margin-right: 10px;
+    border-radius: 6px;
+    border: 1px solid #d8d1d1;
+}
+.phonetics {
+    font-size: 18px;
+}
+.phonetics i {
+    color:#076470;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.phonetics i:hover{
+    font-size: 130%;
+}
+.meaning h3 {
+    color:#076470;
+    font-weight: bold;
+}
+.meaning {
+    font-size: 18px;
+}
+.meaning .example {
+    font-style: italic;
+    opacity: .7;
+}
+.synonyms {
+    margin: 10px 0 20px;
+    padding-left: 0;
+}
+.synonyms li {
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 15px;
+    color: #076470;
+}
+#search-box {
+    padding-left: 10px;
+    width: 60%;
+    font-size: 18px;
+}
 #search-button {
     padding: 1px 30px;
+    background-color: #d8d1d1;
+    font-size: 18px;
 }
+#search-button:hover {
+    background-color: #076470;
+    color: #fff;
+}
+

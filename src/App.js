@@ -7,8 +7,8 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <h1>Dictionary</h1> 
-          <p> What word do you want to look up?</p>
+          <img src="favicon.ico" alt="Katarina Farkas developer logo"></img>
+          <h1>Online Dictionary</h1> 
           </header>
       <Search />
       <footer className="App-footer"><p>
@@ -21,7 +21,9 @@ export default function App() {
             Katarina Farkas
           </a>{" "}
           using ReactJS{" "}
-          <img src="./logo192.png" alt="React logo" class="App-logo" /> and is{" "}
+          <img src="./logo192.png" alt="React logo" class="ReactLogo" /> 
+          <br/>
+          and is{" "}
           <a
             href="https://github.com/Katarina-411/react-dictionary.git"
             target="blank"

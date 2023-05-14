@@ -1,18 +1,23 @@
 h1 {
+  text-align: center;
   padding-bottom: 20px;
 }
 .container {
-  display: block;
-  margin: 30px auto;
-  width: 400px;
+  display: flexbox;
+  margin: 10px auto;
+  padding: 30px 30px 10px;
+  max-width: 700px;
+  background-color: #d8d1d1;
+  border-radius: 10px;
 }
-.App-header {
-  text-align: left;
-}  
+.App-header img{
+  display: block;
+  margin: 0 auto 30px;
+}
 .App-footer {
   text-align: center;
   font-size: 12px;
-  margin: 30px auto;
+  margin: 30px 0;
 }
 .App-footer a {
   color: #076470;
@@ -22,9 +27,10 @@ a:hover {
   font-weight: 600;
   color: #076470 !important;
 }
-.App-logo {
+.ReactLogo {
   height: 20px;
 }
+
 
 
 

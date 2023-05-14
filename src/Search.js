@@ -18,15 +18,17 @@ function handleSearch(event) {
 }
 function handleKeywordChange(event) {
    setKeyword(event.target.value);
-
 }
 
     return (
-    <div>
+    <div className="dictionary">
+      <section>
+      <h4> What word do you want to look up?</h4>
       <form onSubmit={handleSearch}>
-         <input type="search" placeholder="Search for a word" onChange={handleKeywordChange}/>
+         <input type="search" placeholder="Search for a word" onChange={handleKeywordChange} id="search-box"/>
          <input type="submit" value="Search" id="search-button"/>
       </form>
+      </section>
       <Results results={results}/>
     </div>);
  }
